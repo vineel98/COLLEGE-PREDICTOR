@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Student login</title>
+<style>
+             input[type=text]
+             {
+                 width: 50%;
+                 border-radius: 10px;
+                 padding: 10px 10px;
+                 border-color:lightgrey;
+                 border:solid;
+                 margin:10px;
+                 
+             }
+             input[type=text]:focus
+             {
+                 border-color:steelblue;
+                 
+             }
+             input[type=password]
+             {
+                 width: 50%;
+                 border-radius: 10px;
+                 padding: 10px 10px ;
+                 border-color:graytext ;
+                 border:solid;
+                  margin:10px;
+
+             }
+             input[type=password]:focus
+             {
+                 border-color:steelblue;
+                 
+             }
+             input[type=button]
+             {
+                 background-color: red;;
+                 border-radius: 10px;
+                 border:10px;
+                 padding:10px;
+                  margin:10px;
+             }
+            .divi
+             {
+                 margin:20px;
+                 width: 100%;
+                 background-color: steelblue;
+                 color: white;
+                 border-radius: 20px;
+                 text-align: center;
+                 padding: 20px 20px
+                 
+                 
+             }
+             .header2
+             {
+                 background-color:steelblue;
+                 color:whitesmoke;
+                 text-align:center;
+                 width:97%;
+                 padding:20px;
+                 border-radius:20px;
+                 font-family:fantasy;
+                 margin-top: 10px;
+                 
+                 
+             }
+             .Body
+             {
+                 background-color:white;
+                 padding: 10px;
+                 border-radius: 20px;
+                 background-image:url(bg6.jpg);
+                                  
+             }
+             .column
+             {
+                 float:left;
+                 width:25%;
+                 /*background-color:lightgrey;*/
+                 margin-right:10px;
+                 /*border-radius:20px;*/
+                 align-content: center;
+                 font-family:fantasy;
+    
+             }
+              .column1
+             {
+                 float:left;
+                 width:40%;
+                 background-color:black;
+                 border-radius:10px;
+                 padding:30px;
+                 opacity:0.4;
+                 border-top:40px;
+                 
+    
+             }
+             .header1
+             {
+                 width:97%;
+                 background-color:lightcoral;
+                 color:white;
+                 text-align:center;
+                 border-radius:20px;
+                 padding:20px;
+                 margin-bottom: 0px;
+                 font-family: fantasy;
+                 
+                 
+             }
+             
+             
+         </style>
+    </head>
+    <body class="Body">
+        <table style="width:100%;" class="header1">
+        <tr>
+            <td>
+                 <img src="logo.jpeg" alt="logo" align="right">
+            </td>
+            <td>
+                <h1 >Engineering College Alloter</h1>
+            </td>
+        </tr>
+        </table>
+            <h1 class="header2" >Student login</h1>
+        <div class="column">
+            <table>
+                <tr>
+                    <td>
+                        <a href="homepage.html" style="text-decoration:none"><div class="divi">Home page</div></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <a href="Admin_login.html" style="text-decoration:none"><div class="divi">Admin login</div></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="student_login.html" style="text-decoration:none"><div class="divi">Student login</div></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="about.html" style="text-decoration:none"><div class="divi">About</div></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="register.html" style="text-decoration:none"><div class="divi">Register</div></a>
+                    </td>
+                </tr>
+ 
+            </table>
+        </div>
+        <div  class="column1" style="margin-top:20px">
+            <form method="POST" action="logincheck.php">
+            <p style="color:orange">username
+            <input type="text" placeholder="your username..." name="username" ><br></p>
+            <p style="color:orange">password
+                <input type="password" placeholder="your password..." name="pwd"><br></p>
+            <button >login</button> 
+            <p style="color:orange"><a style="text-decoration:none" href="forgotpwd.html">forgot password?</a></p>
+            </form>
+        </div>
+         <div class="column">
+             <img src="student.png" alt="slow connection" style="margin-top:20px;padding-left:20px;width:100%">
+
+         </div>
+        
+    </body>
+</html>
+

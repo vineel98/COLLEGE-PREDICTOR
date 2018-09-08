@@ -1,0 +1,131 @@
+            .header1
+             {
+                 width:100%;
+                 background-color:#7abe3d;
+                 color:orange;
+                /* text-align:center;*/
+                 /*border-radius:10px;*/
+                 padding:20px;
+                 font-family: cursive;
+                 
+             }
+             .header2
+             {
+                 background-color:black;
+                 color:whitesmoke;
+                 text-align:center;
+                 width:100%;
+                 padding:20px;
+                 font-family:fantasy;
+                 opacity: 0.5;
+             }
+             .header3
+             {
+                 background-color:black;
+                 color:white;
+                 width:100%;
+                 padding:4%;
+                 font-family:initial;
+                opacity: 0.7;
+                overflow: hidden
+                 
+                                 
+             }
+             .header4
+             {
+                 background-color: black;
+                 opacity: 0.7;
+                 width:100%;
+                 padding-right:70px;
+                 padding-left: 70px;
+                 color:red;
+             }
+             .header4:hover
+             {
+                 background-color:lightgrey;
+             }
+             
+             .Body
+             
+             {
+                 
+                margin: 0;
+                 
+                 /*background-image:url(n84.jpg);*/
+                                  
+             }
+             .column
+             {
+                 float:left;
+                 width:20%;
+                 /*background-color:lightgrey;*/
+                 margin-right:10px;
+                 margin-top:10px; 
+                     
+                 /*border-radius:20px;*/
+                /* align-content: center;*/
+                 font-family:fantasy;
+                 
+                 height:500px;
+                
+    
+             }
+              .column1
+             {
+                 float:left;
+                 width:50%;
+                 background-color:black;
+                 /*border-radius:10px;*/
+                 padding:30px;
+                 opacity: 0.5;
+                 margin-top:10px;
+                                 
+    
+             }
+             .column2
+             {
+                 width:10%;
+                 padding:1.5%;
+                 background-color: red;
+                 opacity: 1;
+                 background-color: black;
+                 
+             }
+             
+             input[type=text]
+             {
+                 width: 80%;
+                 border-radius: 10px;
+                 padding: 10px 10px;
+                 border-color:graytext ;
+                 border:solid;
+                 margin:10px;
+             }
+             input[type=text]:focus
+             {
+                 border-color:steelblue;
+                 
+             }
+             input[type=password]
+             {
+                 width: 80%;
+                 border-radius: 10px;
+                 padding: 10px 10px ;
+                 border-color:graytext ;
+                 border:solid;
+                  margin:10px;
+
+             }
+             input[type=password]:focus
+             {
+                 border-color:steelblue;
+                 
+             }
+             input[type=button]
+             {
+                 background-color: red;
+                 border-radius: 10px;
+                 border:10px;
+                 padding:10px;
+                  margin:10px;
+             }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script> 
+           function h(x)
+            {
+                if(x.name=="c")
+                {
+                    
+                       document.getElementByName("cse").style.display="";
+                    
+                }
+            }
+        </script>
+        <style>
+            .page2{
+                height: 100px;
+                width: 47%;
+                background-color: #006699;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left: 10px;
+                padding-right:10px;
+                text-align: center;
+                color:red;
+                float: left;
+                
+                
+            }
+              .page3{
+                height: 100px;
+                width: 50%;
+                background-color: red;
+                padding-top: 30vh;
+                padding-bottom: 30px;
+                padding-left: 10px;
+                padding-right:10px;
+                text-align: center;
+                color:red;
+                float: left;
+                
+            }
+            .col{
+                float:left;
+                width:19%;
+                color:red;
+                background-color:red;
+                margin-left: 10%;
+                height: 40vh;
+            }
+            
+            .col2{
+                float:left;
+                width:19%;
+                color:red;
+                background-color:yellow;
+                margin-left: 10%;
+                height: 40vh;
+            }
+            
+            .col3{
+                float:left;
+                width:19%;
+                color:red;
+                background-color:black;
+                margin-left: 10%;
+                height: 40vh;
+            }
+            
+        </style>
+    </head>
+<body>
+<form action="test1.php" method="POST">
+    <p style="font-size: 20px">THIS IS VINEEL</p>
+    <p style="font-family: freemono;font-size: 20px">THIS IS VINEEL</p>
+    <input type="checkbox" name="c" value="vin" onclick="h(this)">vin<br>
+    <input type="text" name="cse" style="display:none" ><br>
+    
+    <div class='col'>this is 1*********************************************************************</div>
+    <div class='col2'>this is 1&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&</div>
+    <div class='col3'>this is 1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>></div>
+  <button value="submit">ok</button>
+</form>
+</body>
+</html>
